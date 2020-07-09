@@ -1,0 +1,37 @@
+{
+  "name": "ServiceNow Reporting",
+  "version": "1.0",
+  "author": "Welltok SecOps",
+  "url": "<plceholder>",
+  "license": "AGPL-V3",
+  "description": "Create ServiceNow Ticket from Hive Case",
+  "dataTypeList": ["thehive:case"],
+  "command": "ServiceNow_Reporting/snow_reporting.py",
+  "baseConfig": "ServiceNowReporting",
+  "configurationItems": [
+    {
+      "name": "url",
+      "description": "URL for ServiceNow (e.g. https://<yourinstance>.service-now.com",
+      "type": "string",
+      "multi": false,
+      "required": true,
+      "defaultValue": ""
+    },
+    {
+      "name": "user",
+      "description": "ServiceNow user",
+      "type": "string",
+      "multi": false,
+      "required": true,
+      "defaultValue": ""
+    },
+    {
+    "name": "password",
+      "description": "ServiceNow password",
+      "type": "string",
+      "multi": false,
+      "required": true,
+      "defaultValue": ""
+    }
+  ]
+}
