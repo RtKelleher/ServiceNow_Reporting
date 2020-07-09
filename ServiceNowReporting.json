@@ -1,7 +1,7 @@
 {
   "name": "ServiceNow Reporting",
   "version": "1.0",
-  "author": "Welltok SecOps",
+  "author": "Welltok Security Operations",
   "url": "<plceholder>",
   "license": "AGPL-V3",
   "description": "Create ServiceNow Ticket from Hive Case",
