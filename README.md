@@ -1,5 +1,5 @@
 # ServiceNow_Reporting
-SNOW reporting via TheHive API
+SNOW case creation via TheHive Responder/API
 
 //Todo: 
 Creation of a config for SN variables
