@@ -1,0 +1,12 @@
+servicenow:
+  company: ''
+  assignment_group: ""
+  description: "Autocreated by The Hive SIRP\n\n"
+  state: "6"
+  u_corp_or_product: "1"
+  u_category_corp_it: ""
+  u_subcategory_corp_it: ""
+  u_origin_point: ""
+
+hive:
+  impact: '2'
